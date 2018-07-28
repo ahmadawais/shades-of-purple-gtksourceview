@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Custom color scheme for GtkSourceView compatible apps; e.g. Xed, Gedit.
+
+    To install this theme simply place this file in the GtkSourceView styles directory.
+    Typical locations for the styles directory include:
+        ~/.local/share/gtksourceview-x.x/styles/
+        /usr/share/gnome/gtksourceview-x.x/styles/
+        /usr/local/share/gtksourceview-x.x/styles/
+        /usr/share/gtksourceview-x.x/styles/
+    where x.x represents the GtkSourceView version number.
+
+    You should have received a copy of the GNU General Public License called COPYING along with this file;
+    if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+-->
+<style-scheme id="shadesofpurple" _name="Shades Of Purple" version="1.0">
+    <author>Lee Spendlove lee.spendlove@gmail.com</author>
+    <_description>Color scheme using Shades Of Purple palette</_description>
+
+<!-- Color name definitions -->
+    <color name="white"                      value="#ffffff"/>
+
+    <color name="purple"                     value="#2d2b55"/>
+    <color name="light-purple"               value="#7448af"/>
+    <color name="lighter-purple"             value="#b362ff"/>
+    <color name="mid-purple"                 value="#463575"/>
+    <color name="dark-purple"                value="#28284e"/>
+    <color name="darker-purple"              value="#1F1F41"/>
+
+    <color name="yellow"                     value="#e3bd07"/>
+    <color name="orange"                     value="#fad000"/>
+    <color name="red"                        value="#ec3a37"/>
+    <color name="light-red"                  value="#ff628c"/>
+    <color name="brown"                      value="#ff9d00"/>
+
+    <color name="green"                      value="#a5ff90"/>
+    <color name="mid-green"                  value="#80ffbb"/>
+    <color name="dark-green"                 value="#5a5843"/>
+
+    <color name="blue"                       value="#9effff"/>
+    <color name="light-blue"                 value="#a599e9"/>
+    <color name="dark-blue"                  value="#626b9f"/>
+
+<!-- Common Settings -->
+    <style name="text"                       foreground="white" background="purple"/>
+    <style name="selection"                  background="light-purple"/>
+    <style name="selection-unfocused"        background="dark-blue"/>
+    <style name="current-line"               background="darker-purple"/>
+    <style name="line-numbers"               foreground="light-blue" background="dark-purple"/>
+    <style name="right-margin"               foreground="lighter-purple" background="purple"/>
+    <style name="bracket-match"              background="mid-purple"/>
+    <style name="bracket-mismatch"           background="light-red" bold="true"/>
+    <style name="draw-spaces"                foreground="lighter-purple"/>
+    <style name="background-pattern"         background="dark-purple"/>
+    <style name="search-match"               background="dark-green"/>
+    <style name="bookmark"                   background="yellow"/>
+
+<!-- Types -->
+    <style name="def:comment"                foreground="lighter-purple" italic="true"/>
+    <style name="def:shebang"                foreground="orange"/>
+    <style name="def:doc-comment"            foreground="lighter-purple"/>
+    <style name="def:doc-comment-element"    use-style="def:doc-comment"/>
+    <style name="def:type"                   foreground="orange"/>
+    <style name="def:keyword"                foreground="brown"/>
+    <style name="def:operator"               use-style="def:keyword"/>
+    <style name="def:base-n-integer"         foreground="light-red"/>
+    <style name="def:constant"               use-style="def:base-n-integer"/>
+    <style name="def:decimal"                use-style="def:base-n-integer"/>
+    <style name="def:floating-point"         use-style="def:base-n-integer"/>
+    <style name="def:boolean"                use-style="def:base-n-integer"/>
+    <style name="def:complex"                use-style="def:base-n-integer"/>
+    <style name="def:character"              foreground="brown"/>
+    <style name="def:string"                 foreground="green"/>
+    <style name="def:special-char"           foreground="blue"/>
+    <style name="def:special-constant"       foreground="light-red"/>
+    <style name="def:builtin"                use-style="def:keyword"/>
+    <style name="def:identifier"             foreground="light-blue"/>
+    <style name="def:function"               foreground="brown"/>
+    <style name="def:statement"              foreground="orange" bold="false"/>
+    <style name="def:preprocessor"           bold="true"/>
+    <style name="def:note"                   foreground="lighter-purple"/>
+    <style name="def:error"                  foreground="red" underline="false"/>
+    <style name="def:warning"                foreground="brown" underline="false"/>
+    <style name="def:underlined"             underline="single"/>
+    <style name="def:statement"              use-style="def:keyword"/>
+
+<!-- Headings -->
+    <style name="def:heading0"               scale="1.0" bold="true"/>
+    <style name="def:heading1"               scale="1.0" bold="true"/>
+    <style name="def:heading2"               scale="1.0" bold="true"/>
+    <style name="def:heading3"               scale="1.0" bold="true"/>
+    <style name="def:heading4"               scale="1.0" bold="true"/>
+    <style name="def:heading5"               scale="1.0" bold="true"/>
+    <style name="def:heading6"               scale="1.0" bold="true"/>
+
+<!-- Legacy -->
+    <style name="Others"                     foreground="light-red"/>
+    <style name="Others 2"                   bold="true"/>
+    <style name="Others 3"                   foreground="orange"/>
+
+<!-- Language Specific -->
+    <style name="js:function"                foreground="blue"/>
+    <style name="js:keyword"                 foreground="orange"/>
+
+    <style name="json:keyname"               foreground="orange"/>
+
+    <style name="markdown:header"            foreground="orange" bold="true" italic="false"/>
+    <style name="markdown:link-text"         foreground="green"/>
+    <style name="markdown:url"               foreground="blue" underline="true"/>
+    <style name="markdown:emphasis"          foreground="light-blue" italic="true"/>
+    <style name="markdown:strong-emphasis"   foreground="light-blue" bold="true"/>
+
+    <style name="php:identifier"             foreground="mid-green"/>
+    <style name="php:variable"               foreground="orange"/>
+    <style name="php:operator"               foreground="white"/>
+
+    <style name="xml:element-name"           foreground="blue"/>
+    <style name="xml:entity"                 foreground="brown"/>
+    <style name="xml:tag"                    foreground="dark-blue"/>
+    <style name="xml:cdata-delim"            foreground="light-blue"/>
+    <style name="xml:doctype"                foreground="blue"/>
+</style-scheme>
