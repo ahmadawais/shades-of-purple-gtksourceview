@@ -10,7 +10,7 @@
         /usr/share/gtksourceview-x.x/styles/
     where x.x represents the GtkSourceView version number.
 
-    You should have received a copy of the GNU General Public License called COPYING along with this file;
+    You should have received a copy of the MIT License called COPYING along with this file;
     if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 -->
 <style-scheme id="shadesofpurple" _name="Shades Of Purple" version="1.0">
