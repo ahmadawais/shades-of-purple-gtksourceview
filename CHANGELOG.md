@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 0.0.2 2018-07-28
+
+### Added
+
+- Screenshot of the php demo file.
+
+### Changed
+
+- COPYING to MIT licence
+- dist/shadesofpurple.xml licence comment
+- README.md to fit spec.
+
 ## 0.0.1 2018-07-28
 
 ### Added
