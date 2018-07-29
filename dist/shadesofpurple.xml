@@ -28,12 +28,14 @@
     <color name="darker-purple"              value="#1F1F41"/>
 
     <color name="yellow"                     value="#e3bd07"/>
+    <color name="pale-yellow"                value="#ffee80"/>
     <color name="orange"                     value="#fad000"/>
     <color name="red"                        value="#ec3a37"/>
     <color name="light-red"                  value="#ff628c"/>
     <color name="brown"                      value="#ff9d00"/>
 
     <color name="green"                      value="#a5ff90"/>
+    <color name="bright-green"               value="#3ad900"/>
     <color name="mid-green"                  value="#80ffbb"/>
     <color name="dark-green"                 value="#5a5843"/>
 
@@ -99,6 +101,18 @@
     <style name="Others 3"                   foreground="orange"/>
 
 <!-- Language Specific -->
+    <style name="css:type-selector"          foreground="blue"/>
+    <style name="css:class-selector"         foreground="bright-green"/>
+    <style name="css:id-selector"            foreground="brown"/>
+    <style name="css:property-name"          foreground="green"/>
+    <style name="css:keyword"                foreground="pale-yellow"/>
+    <style name="css:integer"                use-style="css:keyword"/>
+    <style name="css:number"                 use-style="css:keyword"/>
+    <style name="css:color"                  use-style="css:keyword"/>
+    <style name="css:dimension"              use-style="css:keyword"/>
+    <style name="css:pseudo-class"           foreground="bright-green"/>
+    <style name="css:pseudo-element"         use-style="css:pseudo-class"/>
+
     <style name="js:function"                foreground="blue"/>
     <style name="js:keyword"                 foreground="orange"/>
 
