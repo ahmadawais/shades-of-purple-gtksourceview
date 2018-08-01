@@ -78,7 +78,6 @@
     <style name="def:builtin"                use-style="def:keyword"/>
     <style name="def:identifier"             foreground="light-blue"/>
     <style name="def:function"               foreground="brown"/>
-    <style name="def:statement"              foreground="orange" bold="false"/>
     <style name="def:preprocessor"           bold="true"/>
     <style name="def:note"                   foreground="lighter-purple"/>
     <style name="def:error"                  foreground="red" underline="false"/>
@@ -125,10 +124,11 @@
     <style name="markdown:strong-emphasis"   foreground="light-blue" bold="true"/>
 
     <style name="php:identifier"             foreground="mid-green"/>
-    <style name="php:variable"               foreground="orange"/>
-    <style name="php:operator"               foreground="white"/>
+    <style name="php:variable"               foreground="blue"/>
+    <style name="php:operator"               foreground="brown"/>
 
     <style name="xml:element-name"           foreground="blue"/>
+    <style name="xml:attribute-name"         foreground="orange" italic="true"/>
     <style name="xml:entity"                 foreground="brown"/>
     <style name="xml:tag"                    foreground="dark-blue"/>
     <style name="xml:cdata-delim"            foreground="light-blue"/>

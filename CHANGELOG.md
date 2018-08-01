@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 0.0.4 2018-08-01
+
+### Changed
+
+- Use italics for XML attribute names.
+- Update PHP language specific styles.
+
 ## 0.0.3 2018-07-29
 
 ### Added
