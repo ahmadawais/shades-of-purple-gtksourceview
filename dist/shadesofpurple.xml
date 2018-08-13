@@ -127,6 +127,10 @@
     <style name="php:variable"               foreground="blue"/>
     <style name="php:operator"               foreground="brown"/>
 
+    <style name="python:module-handler"      foreground="brown" bold="false"/>
+    <style name="python:builtin-function"    foreground="orange"/>
+    <style name="python:special-variable"    foreground="blue"/>
+
     <style name="xml:element-name"           foreground="blue"/>
     <style name="xml:attribute-name"         foreground="orange" italic="true"/>
     <style name="xml:entity"                 foreground="brown"/>
