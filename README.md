@@ -73,7 +73,6 @@ I have built other `Shades of Purple` themes for different software. Here's a li
 - 💜 [Slack theme](https://github.com/ahmadawais/shades-of-purple-slack) — Shades of Purple
 - 💜 [Alfred theme](https://github.com/ahmadawais/shades-of-purple-alfred) — Shades of Purple
 - 💜 [HighlightJS theme](https://github.com/ahmadawais/Shades-of-Purple-HighlightJS) — Shades of Purple
-- 💜 [Cygwin theme](https://github.com/ahmadawais/Shades-of-Purple-Cygwin) — Shades of Purple
 
 <br>
 
